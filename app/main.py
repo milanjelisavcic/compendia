@@ -9,7 +9,6 @@ app = Flask(__name__)
 CORS(app)
 
 @app.route('/', methods=['POST', 'GET'])
-@app.route('/test/', methods=['POST', 'GET'])
 def root():
     if request.method == 'POST':
         file = request.files['file']
