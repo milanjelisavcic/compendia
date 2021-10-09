@@ -1,7 +1,8 @@
 colorama==0.4.4
-flask==1.1.2
+flask==2.0.2
 flask-cors==3.0.10
 heroku
 gunicorn==20.1.0
-numpy==1.20.2
-pandas==1.2.4
+huggingface-hub==0.0.19
+numpy==1.19.5
+torch==1.9.1
